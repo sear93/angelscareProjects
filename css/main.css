@@ -49,13 +49,24 @@ button {
     margin-bottom: 50px;
     transition: all 0.5s ease;
     font-weight: bold;
+    outline: none;
 }
 
 button:hover {
     background-color: #2986c9;
 }
 
-button a {
+button .btn-link {
     color: #fff;
     text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .project p {
+        margin: 10px 10px 20px 10px;
+    }
+
+    button {
+        margin-bottom: 20px;
+    } 
 }
