@@ -19,7 +19,7 @@
 .project{
     display: block;
     margin: 30px;
-    max-width: 350px;
+    max-width: 360px;
     text-align: center;
     border: 2px solid #2986c9;
     border-radius: 10px;
@@ -37,15 +37,17 @@
     margin:20px 20px 60px 20px;
 }
 
-.project h1 {
+.project h2 {
     color: #2986c9;
     font-weight: bold;
+    font-size: 32px;
+    padding: 10px 0;
 }
 
 button {
     background-color: #fa77b5;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px 30px;
     font-size: 20px;
     margin-bottom: 50px;
