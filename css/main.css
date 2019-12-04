@@ -131,10 +131,10 @@ button .btn-link:hover {
     color: #fa77b5;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
     .project {
         margin: 10px;
-        max-width: 300px;
+        max-width: 100%;
     }
 
     .project h2 {
