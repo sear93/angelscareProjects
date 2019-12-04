@@ -134,6 +134,7 @@ button .btn-link:hover {
 @media screen and (max-width: 500px) {
     .project {
         margin: 10px;
+        max-width: 300px;
     }
 
     .project h2 {
