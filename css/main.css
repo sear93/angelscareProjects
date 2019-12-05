@@ -125,6 +125,7 @@ button .btn-link {
     text-decoration: none;
     display: block;
     padding: 10px 30px;
+    cursor: pointer;
 }
 
 button .btn-link:hover {
